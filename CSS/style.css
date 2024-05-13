@@ -1,0 +1,357 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main {
+    background-color: rgb(248, 244, 244);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+/* header inizio */
+.header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 110px;
+    padding-right: 110px
+
+}
+.header i { 
+    height: 20px;
+    width: 20px;
+}
+.header img { 
+    height: 100%;
+    width: 140px;
+}
+.header-icon ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 435px;
+    height: 50px;
+    list-style: none;
+}
+.header-icon ul li a{
+    color: black;
+    text-decoration: none;
+}
+.header-icon span{
+    border: 1px solid;
+    border-radius: 30px;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-solid{
+    font-size: 25px;
+}
+.fa-regular{
+    font-size: 25px;
+}
+/* header fine */
+
+section{
+    height: 100vmax;
+    width: 400px;
+}
+.section1{
+    flex-grow:2;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.sc1-icon{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    gap: 26px;
+    border-bottom: 1px solid;
+    border-bottom-style: groove;
+}
+/* articolo inizo*/
+.articles{
+    margin-top: 37px;
+    width: 845px;
+    height: 200px;
+    display: flex;
+    gap: 40px;
+}
+.art-text{
+    height: 100%;
+    width: 70%;
+}
+.art-text div{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.art-img img{
+    height: 163px;
+    width: 174px;
+}
+.art-img{
+    height: 163px;
+    width: 174px;
+}
+.text1{
+    display: flex;
+    align-items: center;
+    width: 590px;
+    height: 24px;
+}
+.text1 img{
+    height: 23px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.text2{
+    font-weight: bold;
+    font-size: 25px;
+    width: 590px;
+}
+.text3{
+    font-weight: lighter;
+    width: 590px;
+}
+.text4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 590px;
+}
+.text4 .tag ul :nth-child(1){ 
+    list-style: none;
+}
+.text4 .tag ul{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 15px;
+    width: 369px;
+}
+.text4 .tag ul :nth-child(3){
+    border-radius: 20px;
+    background-color: rgb(211, 206, 206);
+    height: 22px;
+    width: 52px;
+    text-align: center;
+}
+.text4 .icon ul li a{
+    color: black;
+    text-decoration: none;
+}
+.text4 .icon ul {
+    list-style: none;
+    display: flex;
+    gap: 23px;
+    width: 85px;
+}
+/* articolo fine */
+
+/* sidebar */
+.section2{
+    height: 100vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* 1° partendo dall'alto */
+.side1{
+    height: 200px;
+    width: 400px;
+}
+.side1 div{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side1-logo ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.side1-logo ul li{
+    height: 70%;
+    width: 15%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side1-par{
+    font-size: 20px;
+    text-align: center;
+}
+.side1-logo li img{
+    height: 100%;
+
+}
+.side1-connect ul li{
+    list-style: none;
+    height: 26px;
+    width: 28px;
+}
+.side1-connect li img{
+    height: 20px;
+    width: 27px;
+}
+.side1-connect ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    gap: 11px;
+    border: 1px solid;
+    width: 219px;
+    border-radius: 40px;
+}
+.side1-connect li:nth-child(2){
+    font-size: 17px;
+    width: 136px;
+    height: 25px;
+}
+.side1 a{
+    color: black;
+}
+/* 2° blocco  */
+.side2{
+    height: 200px;
+    width: 400px;
+} 
+.side2 ul{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.side2 ul li{
+    background-color: rgb(211, 206, 206);
+    border-radius: 30px;
+    font-size: 18px;
+    list-style: none;
+    height: 27px;
+    width: 111px;
+    margin: 7px;
+    text-align: center;
+    
+}
+.side2 div:nth-child(1){
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.side2 li a {
+    color: black;
+    text-decoration: none;
+}
+/* 3° blocco */
+.side3{
+    height: 300px;
+    width: 400px;
+
+}
+.side3 div{
+    padding: 5px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.side3-parent{
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+}
+.side3-author div:nth-child(2){
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 73px;
+}
+.side3-author p:nth-child(1){
+    font-weight: bold;
+}
+.side3-author div:nth-child(odd){
+    height: 60px;
+}
+.side3-author img{
+    height: 100%;
+    border-radius: 20px;
+}
+.side3-author button {
+    border-radius: 20px;
+    width: 78px;
+    height: 34px;
+    margin-left: 40px;
+}
+.side3-author button a{
+    text-decoration: none;
+    color: black;
+}
+/* 4°blocco */
+.side4{
+    height: 340px;
+    width: 400px;
+}
+.side4 li{
+    height: 35px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+.side4 li:nth-child(1){
+    font-size: 20px;
+}
+.side4 img{
+    height: 20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.side4 li:nth-child(3){
+    font-weight: 600;
+    font-size: 20px;
+}
+.side4 li:nth-child(4){
+    font-size: 10px;
+}
+.side4 li a{
+    color: green;
+    text-decoration: none;
+}
+footer li{
+    list-style: none;
+    height: 20px;
+    width: 55px;
+    font-size: 15px;
+    margin: 0 20px 5px 0;
+}
+footer li a{
+    color: rgb(155, 148, 148);
+    text-decoration: none;
+}
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+}
